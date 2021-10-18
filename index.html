@@ -16,8 +16,6 @@
             <input type="email" name="email" class="email" placeholder="Email">
         </div>
             <br>
-            <br>
-            <br>
         <div class="time-date">
             <label class="pick-date">
                 Pick a date
@@ -25,7 +23,6 @@
                 <input type="number" name="day" class="date" min="1" max="31" placeholder="DD">
                 <input type="nunmber" name="day" class="date" min="1" max="31" placeholder="YYYY">
             </label>
-            <br>
             <br>
             <label class="pick-time">
                 Pick a time
@@ -40,9 +37,9 @@
             <br>
         </div>
         <div class="incre-decre">
-                <input type="button" class="decrement" onclick="decrementValue()" value="-" />
-                <input type="text" id="number"  value="0"/><span>person(s)</span>
-                <input type="button" class="increment" onclick="incrementValue()" value="+" />
+                <input type="button" class="incr-decr" onclick="decrementValue()" value="-" />
+                <input type="text" id="number" class="display" value="0"/>
+                <input type="button" class="incr-decr" onclick="incrementValue()" value="+" />
         </div>
         <div class="line"></div>
         <br>
