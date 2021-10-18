@@ -48,9 +48,9 @@ form{
     
 
 }
-.disp-people{
+.decrement{
     border: none;
-    padding-left: 100px;
+    padding-left: 30px;
 }
 .incr-decr{
     width: 30px;
@@ -73,81 +73,4 @@ form{
     color: white;
     font-size: 20px;
     font-weight: bold;
-}
-@media (max-width: 768px){
-    body{
-        display: block;
-        margin-left: 35%;
-        margin-top: 10%;
-        background-color: rgb(253, 253, 253);
-        border: 2px solid rgb(165, 150, 150);
-        width: 40%;
-        height: 55vh;
-        padding-left: 25px;
-        padding-top: 30px
-    }
-    .name{
-        width: 270px;
-        height: 30px;
-        border: none;
-        border-bottom: 1px solid rgb(185, 179, 179);
-        font-size: 15px;
-    }
-    .email{
-        width: 370px;
-        height: 30px;
-        border: none;
-        border-bottom: 1px solid rgb(185, 179, 179);
-        font-size: 15px;
-    }
-    .pick-date{
-        font-size: 20px;
-    }
-    .date{
-        width: 50px;
-        margin: 20px;
-        border: none;
-        border-bottom: 1px solid rgb(185, 179, 179);
-        font-size: 15px;
-    }
-    .time{
-        width: 50px;
-        margin: 20px;
-        border: none;
-        border-bottom: 1px solid rgb(185, 179, 179);
-        font-size: 15px;
-    }
-    .pick-time{
-        font-size: 20px; 
-    }
-    .incre-decre{
-        margin-left: 25px;
-        
-    
-    }
-    .display-people{
-        margin: 100px;
-    }
-    .incr-decr{
-        width: 30px;
-        height: 30px;
-        font-size: 20px;
-        border: none;
-        background-color: white;
-    }
-    .line{
-        border-bottom: 1px solid rgb(185, 179, 179);
-        margin-left: 10px;
-        width: 350px;
-    }
-    .submit{
-        margin-bottom: 40px;
-        padding: 15px 30px;
-        width: 370px;
-        border: none;
-        background-color: black;
-        color: white;
-        font-size: 20px;
-        font-weight: bold;
-    }   
 }
